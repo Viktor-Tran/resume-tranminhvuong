@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Lequire-round";
+  src: local("Lequire-round"),
+    url("./fonts/Lequire-round/Lequire Rounded.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Black-past";
+  src: local("Lequire-round"),
+    url("./fonts/Blackpast/BlackpastDemo-vm2l9.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Cosmic";
+  src: local("Cosmic"), url("./fonts/Cosmic/COSMIC__.TTF") format("truetype");
+  font-weight: normal;
+}
