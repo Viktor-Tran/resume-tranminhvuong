@@ -134,7 +134,7 @@ const About = () => {
     { info: 'tranminhvuong100@gmail.com', type: 'Email' },
   ];
   return (
-    <section className={classes.tmvAbout}>
+    <section className={`tmv ${classes.tmvAbout}`}>
       <Header content="About me" />
       <Paper sx={{ borderRadius: 15, marginTop: 10 }} elevation={24}>
         <p className={classes.tmvAboutSummary}>

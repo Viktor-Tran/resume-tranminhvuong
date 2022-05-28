@@ -129,7 +129,7 @@ const Menu = () => {
           )}
         </div>
         {listIcons.map((icon, idx) => {
-          const { Icon, description } = icon;
+          const { Icon } = icon;
           const customStyle = { '--i': idx };
           return (
             <li

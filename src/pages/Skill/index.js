@@ -69,7 +69,7 @@ const Index = () => {
     { labelProgress: 'Material UI', Icon: IconMaterialUI },
   ];
   return (
-    <section className={classes.tmvSkill}>
+    <section className={`tmv ${classes.tmvSkill}`}>
       <Header content="My skill" />
       <section className={classes.tmvListSkill}>
         {listSkill.map((item) => {

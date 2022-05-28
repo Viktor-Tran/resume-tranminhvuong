@@ -113,7 +113,7 @@ const Introduce = () => {
     },
   ];
   return (
-    <header className={classes.tmvIntroduce}>
+    <header className={`tmv ${classes.tmvIntroduce}`}>
       <h1 className={classes.tmvIntroduceName}>Tran Minh Vuong</h1>
       <h3 className={classes.tmvIntroduceCareer}>
         I'm a{' '}
